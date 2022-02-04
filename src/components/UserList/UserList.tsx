@@ -24,16 +24,6 @@ const UserList: React.FC = () => {
   if (error) {
     return <h1>{error}</h1>;
   }
-
-  //     return (
-  //         <div>
-  //             {users.map(user =>
-  //                 <div key={user.id}>{user.name}</div>
-  //             )}
-  //         </div>
-  //     );
-  // };
-
   return (
     <section className={styles.table}>
       <table>
