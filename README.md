@@ -4,7 +4,7 @@
 
 **Description:**
 
-It is an application for writing tasks with the opportunity to mark completed, delete and edit labels
+The application generates several lists using a request to the server.
 
 **Technology:**
 
