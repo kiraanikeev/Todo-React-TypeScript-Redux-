@@ -1,0 +1,57 @@
+.table {
+  width: 700px;
+  margin: 20px auto;
+  display: flex;
+  border: 2px solid rgb(66, 100, 57);
+  font-family: "Oxygen", sans-serif;
+  font-size: 15px;
+}
+.name {
+  min-width: 120px;
+}
+.email {
+  width: 200px;
+}
+.phone {
+  width: 200px;
+}
+.website {
+  width: 40px;
+}
+td {
+  text-overflow: ellipsis;
+  height: 30px;
+  text-align: left;
+}
+.headers {
+  text-align: centr;
+}
+
+@media screen and (max-width: 1024px) {
+  .table {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .table {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .table {
+    width: 350px;
+    font-size: 12px;
+  }
+  .name {
+    min-width: 40px;
+  }
+  .email {
+    width: 300px;
+  }
+  .phone {
+    width: 20px;
+  }
+  .website {
+    width: 20px;
+  }
+}

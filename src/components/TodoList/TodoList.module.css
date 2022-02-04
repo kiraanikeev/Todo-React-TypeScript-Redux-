@@ -1,0 +1,35 @@
+.tasks {
+  width: 450px;
+  text-align: left;
+  margin: 20px auto;
+  padding-left: 10px;
+  font-family: "Oxygen", sans-serif;
+  font-size: 17px;
+  border-left: 4px solid rgb(22, 88, 8);
+}
+
+.pages {
+  display: flex;
+  cursor: pointer;
+}
+.active:hover {
+  transform: scale(1.2);
+}
+.active {
+  border: 2px solid rgb(22, 88, 8);
+  border-radius: 20px;
+  width: 20px;
+  text-align: center;
+  margin: 15px 10px;
+}
+
+.inactive {
+  border: 1px solid rgb(108, 112, 107);
+  border-radius: 20px;
+  width: 20px;
+  text-align: center;
+  margin: 15px 10px;
+}
+.inactive:hover {
+  transform: scale(1.2);
+}
